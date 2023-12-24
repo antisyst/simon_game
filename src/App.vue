@@ -6,17 +6,17 @@
     <div class="level_container">
       <div class="l_item">
         <input type="radio" id="easy" value="easy" v-model="difficulty" @change="setDifficulty" />
-        <label for="easy">Easy</label>
+        <label for="easy">легкий</label>
       </div>
 
      <div class="l_item">
         <input type="radio" id="normal" value="normal" v-model="difficulty" @change="setDifficulty" />
-        <label for="normal">Normal</label>
+        <label for="normal">нормальный </label>
      </div>
 
       <div class="l_item">
         <input type="radio" id="hard" value="hard" v-model="difficulty" @change="setDifficulty" />
-        <label for="hard">Hard</label>
+        <label for="hard">сложный</label>
       </div>
     </div>
   </div>
