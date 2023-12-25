@@ -15,10 +15,10 @@
         </div>
         </div>
       <div class="round_c">
-        <div>Round: {{ round }}</div>
-        <button @click="startGame" :disabled="isPlaying">{{ isPlaying ? 'Playing...' : 'Start Game' }}</button>
+        <div>раунд: {{ round }}</div>
+        <button @click="startGame" :disabled="isPlaying">{{ isPlaying ? 'Играю...' : 'Начать игру' }}</button>
       </div>
-      <div v-if="isGameOver" class="wrong">Wrong sequence! Game over. Your final round is {{ round }}</div>
+      <div v-if="isGameOver" class="wrong">Неправильная последовательность! Игра закончена. Ваш последний раунд {{ round }}</div>
     </div>
   </template>
   
